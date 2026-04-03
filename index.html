@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Levi Dev</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body>
+    <main id="container">
+      <section id="profile">
+        <img src="perfil.jpg" alt="Foto do Levi" />
+        <h1>🚀 Levi Dev</h1>
+        <p class="cargo">Desenvolvedor Front-End em formação</p>
+        <p id="texto">Minha jornada começou hoje. E eu não vou parar.</p>
+      </section>
+
+      <section id="acoes">
+        <button id="botao" onclick="clicou()">Clique aqui</button>
+        <button onclick="mudarTitulo()">Mudar título</button>
+        <button onclick="mudarTema()">🌙 Mudar tema</button>
+      </section>
+
+      <section id="sobre-mim">
+        <h2 id="titulo2">Estou evoluindo</h2>
+        <p id="sobre">
+          Estou focado em aprender programação e evoluir um pouco todos os dias.
+          Estou estudando HTML, CSS e JavaScript para me tornar um desenvolvedor
+          cada vez melhor.
+        </p>
+      </section>
+
+      <section id="habilidades">
+        <h2>💻 Habilidades</h2>
+        <div class="cards">
+          <div class="card">HTML</div>
+          <div class="card">CSS</div>
+          <div class="card">JavaScript</div>
+          <div class="card">Responsividade</div>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <h2>🚀 Projetos</h2>
+
+        <div class="projeto">
+          <h3>Portfólio Levi</h3>
+          <p>
+            Portfólio pessoal desenvolvido com HTML, CSS e JavaScript para
+            apresentar minha evolução na programação.
+          </p>
+          <a
+            href="https://github.com/Levi-dev23"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ver GitHub
+          </a>
+        </div>
+      </section>
+
+      <section id="links">
+        <h2>🔗 Meus links</h2>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/Levi-dev23"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Meu GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/levi-neemias-pereira-81837a3a9/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Meu LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/levizz_why/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Meu Instagram
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="social-links">
+        <a
+          href="https://github.com/Levi-dev23"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub"
+        >
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/levi-neemias-pereira-81837a3a9/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a
+          href="https://www.instagram.com/levizz_why/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+      </section>
+
+      <footer>
+        <p>© 2026 Levi Dev</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
